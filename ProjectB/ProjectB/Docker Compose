@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  project_a:
+    build: ./project_a
+    ports:
+      - "8000:8000"
+  project_b:
+    build: ./project_b
+    ports:
+      - "3000:3000"
